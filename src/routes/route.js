@@ -33,17 +33,17 @@ const _ = require('underscore')
 
 // -write an api which gives the missing number in an array of integers starting from anywhere….e.g [33, 34, 35, 37, 38]: 36 is missing
 
-router.get("/sol2",function(req,res){
-    let arr = [33, 34, 35, 37, 38] //36 is missing
-    let total = arr.length+1
-    let result = total*(arr[0]+arr[arr.length-1])/2;
-    let a = 0;
-    for(let i =0; i<arr.length;i++){
-        a +=arr[i]
-    }
-    let missingNum = result - a
-    res.send("missing number is"+ missingNum)
-})
+// router.get("/sol2",function(req,res){
+//     let arr = [33, 34, 35, 37, 38] //36 is missing
+//     let total = arr.length+1
+//     let result = total*(arr[0]+arr[arr.length-1])/2;
+//     let a = 0;
+//     for(let i =0; i<arr.length;i++){
+//         a +=arr[i]
+//     }
+//     let missingNum = result - a
+//     res.send("missing number is"+ missingNum)
+// })
 
 
 module.exports = router;
