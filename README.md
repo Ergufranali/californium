@@ -18,8 +18,8 @@ TOPIC: Middleware2
 ```
 { 
 	_id: ObjectId("61951bfa4d9fe0d34da86829"),
-	name: "Sabiha Khan",
-	balance:100, // Default balance at user registration is 100
+	,
+	name: "Sabiha Khan"balance:100, // Default balance at user registration is 100
 	address:"New delhi",
 	age: 90,
  	gender: “female” // Allowed values are - “male”, “female”, “other”
